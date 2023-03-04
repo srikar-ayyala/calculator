@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px){
+    
+    body {
+        font-size: 1.5rem;
+    }
+
+    .outer-box {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .outer-box {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    
+    body {
+        overflow: auto;
+    }
+
+    .outer-box {
+        position: static;
+        transform: translate(0, 0);
+        margin: auto;
+    }
+}
